@@ -1,0 +1,35 @@
+name: bride_stone_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+
+    flutter_social_button: ^1.1.4+1
+    font_awesome_flutter: ^10.5.0
+#    flutter_nfc_kit: ^3.3.3
+    nfc_manager: ^3.3.0
+    url_launcher: ^6.1.14
+    permission_handler: ^11.0.0
+    awesome_dialog: ^3.1.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/1694692203-sfg-logo-black.png
+  fonts:
+    - family: antic
+      fonts:
+        - asset: assets/fonts/AnticDidone-Regular.ttf
+    - family: lexend
+      fonts:
+        - asset: assets/fonts/Lexend-Light.ttf
+        - asset: assets/fonts/Lexend-Regular.ttf
+        - asset: assets/fonts/Lexend-ExtraLight.ttf
